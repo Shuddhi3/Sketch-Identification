@@ -1,0 +1,21 @@
+body {
+    background-color: cyan;
+}
+h1 {
+    color: cadetblue;
+    background-color:aliceblue ;
+}
+#show_sketch {
+    float: right;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border: 5px solid white;
+    margin-top: 50px;
+}
+@keyframes example {
+      from{box-shadow: 1px 10px 100px black;}
+      to{box-shadow: 1px 10px 100px lightgrey;}
+}
